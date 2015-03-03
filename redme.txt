@@ -1,4 +1,6 @@
-DatInput by Richard3d @RichardCBecker
+DatInput by Richard3d 
+Richard3d@gmail.com
+@RichardCBecker
 
 A free,lightweight, and minimally invasive input manager for Unity3D. 
 
@@ -13,7 +15,19 @@ FEATURES:
 Currently DatInput does not feature control remapping during runtime as this would require
 writing a completely separate Input library however it will be available in the coming months.
 
-Thanks to -
-Alec Holowka for sharing InputX which helped inspire DatInput
-PL Young for the excellent tutorial which provided technical expertise for DatInput
+THANKS TO:
+
+- Alec Holowka for sharing InputX which helped inspire DatInput
+- PL Young for the excellent tutorial which provided technical expertise for DatInput
+
+
+HOW TO USE DATINPUT:
+- Copy DatInputManager.cs to a folder named 'editor' in your project 'assets' folder
+- Open DatInputManager in the Unity Editor via 'Window->DatInput Manager'
+- Choose default control type and the max number of players/controllers you wish to support
+- Fill out control settings (you must click save for the settings to take effect)
+- You can see your changes reflected in the standard Unity Input Manager every time you save
+- Use the standard Unity Input API to access input, prefixing action names with "Joy#" e.g. Input.GetAxis("Joy0 Move") - get movement from player 1, Input.GetButton("Joy2 Attack") - see if player 2 pressed attack
+
+Note: Any mouse or keyboard controls will only be assigned to player 1.
 
