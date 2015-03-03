@@ -1,0 +1,19 @@
+DatInput by Richard3d @RichardCBecker
+
+A free,lightweight, and minimally invasive input manager for Unity3D. 
+
+FEATURES: 
+
+- Uses Unity's native Input API (no code changes)
+- Editor Window for assigning controls (zero setup code required)
+- Multiple controller support
+- Default multiplatform keybinding (Mac/Win) for common controllers (Xbox 360, PS3, etc)
+- Mouse and keyboard control definitions automatically asigned to first player
+
+Currently DatInput does not feature control remapping during runtime as this would require
+writing a completely separate Input library however it will be available in the coming months.
+
+Thanks to -
+Alec Holowka for sharing InputX which helped inspire DatInput
+PL Young for the excellent tutorial which provided technical expertise for DatInput
+
